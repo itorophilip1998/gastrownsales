@@ -1,50 +1,52 @@
 import React from "react";
+import Btn from "../utils/Btn";
 
 function Header() {
   return (
     <div>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="/">
-          Navbar
-        </a>
-        <button
-          class="navbar-toggler d-lg-none"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavId"
-          aria-controls="collapsibleNavId"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item ">
-              <a class="nav-link" href="/">
-                Home
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="/whyus">
-                Why Us
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="/#services">
-                Services
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="/#about">
-                About Us
-              </a>
-            </li>
-          </ul>
-          {/* <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> */}
+      <nav className="navbar navbar-expand-sm navbar-dark bg-transparent pt-5">
+        <div className="container">
+          <a className="navbar-brand" href="/">
+            <img src="/images/logo.png" alt="" />
+          </a>
+          <button
+            className="navbar-toggler d-lg-none"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="collapsibleNavId">
+            <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
+              <li className="nav-item ">
+                <a className="nav-link" href="/">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link" href="/#whyus">
+                  Why Us
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link" href="/#services">
+                  Services
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link" href="/#about">
+                  About Us
+                </a>
+              </li>
+            </ul>
+            <form className="form-inline my-2 my-lg-0" >
+              <Btn text="Contact Us" width="197.16px" />
+            </form>
+          </div>
         </div>
       </nav>
     </div>

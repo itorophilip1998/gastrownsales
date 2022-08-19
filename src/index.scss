@@ -18,9 +18,47 @@
    padding: 10px 30px;
   //  width: 5007.16px;
   display: block;
-   }
+&:hover{ 
+  background: #b45904; 
+}  
+}
 
    border: 0.868526px solid #FF7A00;
    border-radius: 19.2071px;
   //  display: block;
+ }
+
+ body {
+   overflow-x: hidden !important;
+   /* IE and Edge */
+   scrollbar-width: none;
+   /* Firefox */
+   width: 100% !important;
+   padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.6);
+
+
+
+   .link {
+     cursor: pointer;
+   }
+
+   // -webkit-tap-highlight-color:red !important;
+ }
+
+ ::-webkit-scrollbar {
+   background: #101121 !important;
+   width: 5px;
+   cursor: pointer;
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   border-radius: 40px;
+   background: #4b4e85;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+   cursor: pointer;
  }
