@@ -2,7 +2,7 @@ import React from "react";
 import "./partners.scss"
 const images = [
   "synology_white_1 1.png",
-  "",
+  "Kontur_white_1 1.png",
   "twin_white_1 1.png",
   "netspice_white_1 1.png",
   "area_white_1 1.png",

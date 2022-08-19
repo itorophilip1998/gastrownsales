@@ -1,8 +1,8 @@
 .partners{
     width: 80%;
         height: 156px;
-        left: 144px;
-        top: 955px;
+        // left: 144px;
+        // top: 955px;
     margin: auto;
     margin-top: -70px;
         background: #FFFFFF;
@@ -10,10 +10,20 @@
         border-radius: 20px;
         
     img{
-        margin-top: 30px;
+        margin-top: 5px;
         
     }
     h6{
-        
+        padding-top: 30px;
+    font-family: 'Oceanwide';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #000000;
     }
 }

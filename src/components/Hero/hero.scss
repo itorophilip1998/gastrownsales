@@ -1,6 +1,6 @@
 #hero {
     background-image: url("../../../public/images/headerBg.png");
-    height: 115vh;
+    height: 119vh;
     left: 0px;
     top: 0px;
     background-size: cover;
@@ -22,6 +22,9 @@
     }
 
 }
+.active{
+        border-bottom: 2px solid #FF7A00;
+}
 
 .nav-item {
     margin: 0px 10px;
@@ -32,7 +35,7 @@
         font-family: 'Oceanwide';
         font-style: normal;
         font-weight: 600;
-        font-size: 60px;
+        font-size: 55px;
         line-height: 75px;
         text-align: center;
         color: #FFFFFF;
@@ -41,7 +44,7 @@
         font-family: 'Montserrat';
             font-style: normal;
             font-weight: 600;
-            font-size: 18px;
+            font-size: 15px;
             line-height: 22px;
             text-align: center;
         
@@ -52,8 +55,8 @@
     color:#FF7A00;
 }
 .scrollDown{
-width: 106px;
-    height: 106px;
+width: 156px;
+    height: 156px;
     cursor: pointer;
     margin-top: 24px;
 }
