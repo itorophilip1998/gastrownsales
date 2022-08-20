@@ -6,7 +6,8 @@ const whyDb = [
     title: "Strong Sales Team",
     body: `A solid team of sales professionals committed 
 to delivering real results for customers and partners`,
-    img: "Vector (8).png",
+        img: "Vector (8).png",
+    
   },
   {
     title: "Optimized Sales Process",
@@ -41,6 +42,7 @@ function WhyGastrwonSales() {
                 <h5 className="cards-title">{item.title}</h5>
                 <p className="cards-body">{item.body}</p>
               </div>
+             { key!==0 && <img src="/images/Arrow 1.png" alt=""  className="lineImg"/>}
             </div>
           ))}
       </div>

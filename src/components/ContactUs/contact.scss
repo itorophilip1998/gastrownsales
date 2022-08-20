@@ -1,0 +1,39 @@
+.contact-us{
+    background: #000000;
+    padding: 8rem 0;
+    input,textarea{
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 122, 0, 0.36);
+            border-radius: 20px !;
+            -webkit-border-radius: 20px ;
+            -moz-border-radius: 20px ;
+            -ms-border-radius: 20px ;
+            -o-border-radius: 20px ;
+            padding: 10px;
+}
+    h1{
+        font-family: 'Oceanwide';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            /* identical to box height */
+        
+            text-align: center;
+        
+            color: #FFFFFF;
+    }
+    p{
+        font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+        
+            color: #FFFFFF;
+    }
+}
+.text-color{
+    color:#FF7A00 !important;
+}
