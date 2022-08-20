@@ -4,13 +4,15 @@
     input,textarea{
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 122, 0, 0.36);
-            border-radius: 20px !;
+            border-radius: 20px ;
             -webkit-border-radius: 20px ;
             -moz-border-radius: 20px ;
             -ms-border-radius: 20px ;
             -o-border-radius: 20px ;
-            padding: 10px;
+    //  min-height: ;
+    min-height: 70px !important;
 }
+ 
     h1{
         font-family: 'Oceanwide';
             font-style: normal;
