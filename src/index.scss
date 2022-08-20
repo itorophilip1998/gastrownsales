@@ -16,18 +16,20 @@
      font-weight: 600;
      font-size: 16px;
      line-height: 20px;
-     /* identical to box height */
-
-     text-align: center;
-
+     /*identicaltoboxheight*/text-align: center;
      color: #FFFFFF;
      background: #FF7A00;
      border-radius: 17.3705px;
-   padding: 10px 30px;
-  //  width: 5007.16px;
-  display: block;
-&:hover{ 
-  background: #b45904; 
+     padding: 10px 30px;
+     //width: 5007.16px;
+     display: block;
+     &:hover 
+{ 
+  background: #FF7A00; 
+    background-color: #b45904;
+      -webkit-transition: background-color 1000ms linear;
+      -ms-transition: background-color 1000ms linear;
+      transition: background-color 1000ms linear;
 }  
 }
 

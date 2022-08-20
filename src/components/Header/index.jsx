@@ -2,8 +2,12 @@ import React from "react";
 import Btn from "../utils/Btn";
 
 function Header() {
+    
+    const isActive = window.location.hash === '' ? true : false;
+    
   return (
-    <div>
+      <div>
+          
       <nav className="navbar navbar-expand-sm navbar-dark bg-transparent pt-5">
         <div className="container">
           <a className="navbar-brand" href="/">
@@ -22,8 +26,8 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
-              <li className="nav-item ">
-                <a className="nav-link active" href="/">
+              <li className="nav-item  ">
+                              <a className={`nav-link ${isActive?'active':''}`} href="/">
                   Home
                 </a>
               </li>
