@@ -1,4 +1,5 @@
 import React from 'react'
+import Btn from '../utils/Btn';
 import "./contact.scss"
 function ContactUs() {
   return (
@@ -34,7 +35,16 @@ function ContactUs() {
           <div className="col-11 mx-auto mt-4">
             <label htmlFor="firstname">First Name</label>
 
-            <textarea name="" id="" cols="30" rows="10" className='form-control'></textarea>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              className="form-control"
+            ></textarea>
+          </div>
+          <div className="col-12 text-center mt-5 pt-4">
+            <Btn text="Contact Us" />
           </div>
         </form>
       </div>
