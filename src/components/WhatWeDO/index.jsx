@@ -24,13 +24,13 @@ function WhatWeDo() {
   return (
     <div className="whatwedo " id="services">
       <div className="container ">
-        <div className="row m-0 first-row text-left">
+        <div className="row m-0 first-row text-md-left text-center">
           <div className="col-md-4">
             <h3>What we Do</h3>
             <h1>Our Services</h1>
           </div>
           <div className="col-md-8 ">
-            <div className="border-mix"></div>
+            <div className="border-mix d-none d-md-block"></div>
             <p className="pl-md-5">
               As a culture, we are committed to providing the best sales
               services for your business and product: Building your brand

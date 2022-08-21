@@ -12,59 +12,97 @@
        line-height: 17px !important;
      }
    }
-    
 
 
-     .partners {
-        position: relative !important;
-        margin-top: 0px !important;
-        padding: 3rem 0;
-        height: 273px !important;
-        box-shadow:none !important;
-        border-radius: 0;
-                h6 
-{
-          font-family: 'Oceanwide';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px !important;
-            line-height: 18px !important;
-            /* identical to box height */
-          
-            text-align: center;
-          
-            color: #000000;
-        }
-        img{
-          max-width: 80px;
-            // mheight: 18.34px;
-            max-height: 30px;
-        }
+
+   .partners {
+     position: relative !important;
+     margin-top: 0px !important;
+     padding: 3rem 0;
+     height: 273px !important;
+     box-shadow: none !important;
+     border-radius: 0;
+
+     h6 {
+       font-family: 'Oceanwide';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 14px !important;
+       line-height: 18px !important;
+       /* identical to box height */
+
+       text-align: center;
+
+       color: #000000;
      }
+
+     img {
+       max-width: 80px;
+       // mheight: 18.34px;
+       max-height: 30px;
+     }
+   }
+
+
+
+
+   .whynah {
+     h2 {
+       font-weight: 600 !important;
+       font-size: 24px !important;
+       line-height: 30px !important;
+     }
+         .cards-box {
+        height: 130px !important;
+         }
+   }
+
+.whatwedo{
+  .first-row{
+   h3{
+    font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      /* identical to box height */
+    
+      text-align: center;
+      text-transform: uppercase;
+    
+      color: #FF7A00;
+   }
+  }
+}
+
  }
 
- .modal-content,.modal {
+ .modal-content,
+ .modal {
    background: #000 !important;
-   .close{
-    color:white !important;
+
+   .close {
+     color: white !important;
    }
+
    bottom:0px !important;
    top:0px !important;
    right:0px !important;
-  //  padding-top: 1rem;
+   //  padding-top: 1rem;
  }
- .sidbar-nav{
-  padding-top: 3rem;
-  li{
-    margin-top: 1.7rem;
-    text-align: center;
-    a{
-      display: inline-block;
-    }
-  }
+
+ .sidbar-nav {
+   padding-top: 3rem;
+
+   li {
+     margin-top: 1.7rem;
+     text-align: center;
+
+     a {
+       display: inline-block;
+     }
+   }
 
 
 
 
-  
+
  }

@@ -48,7 +48,7 @@ function Footer() {
         &copy;2022 <img src="/images/GastrownSales. (1).png" alt="" />
       </div>
       </div>
-      <img src="/images/Scroll Button (1).png" alt="" className="scrollToTop " />
+      <img src="/images/Scroll Button (1).png" alt="" className="scrollToTop link " />
     </div>
   );
 }

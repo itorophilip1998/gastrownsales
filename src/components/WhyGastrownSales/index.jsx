@@ -22,7 +22,7 @@ to delivering real results for customers and partners`,
 ];
 function WhyGastrwonSales() {
   return (
-    <div className="whynah mt-5 pt-5 container" id="whyus">
+    <div className="whynah mt-5 pt-md-5 container" id="whyus">
       <div className="col-md-10  mx-auto">
         <h2>Why GastrownSales?</h2>
         <p className="secondMsg">
@@ -34,7 +34,7 @@ function WhyGastrwonSales() {
       <div className="row m-0 card-container">
         {whyDb &&
           whyDb.map((item, key) => (
-            <div className="col-md-4" key={key}>
+            <div className="col-lg-4" key={key}>
               <div className="cards-img-box">
                 <img src={`/images/${item.img}`} alt="" />
               </div>
@@ -43,7 +43,7 @@ function WhyGastrwonSales() {
                 <p className="cards-body">{item.body}</p>
               </div>
               {key !== 0 && (
-                <img src="/images/Arrow 1.png" alt="" className="lineImg" />
+                <img src="/images/Arrow 1.png" alt="" className="lineImg d-none d-lg-block" />
               )}
             </div>
           ))}
