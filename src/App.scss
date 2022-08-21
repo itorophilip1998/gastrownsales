@@ -23,7 +23,15 @@
    bottom:0px !important;
    top:0px !important;
    right:0px !important;
+  //  padding-top: 1rem;
  }
  .sidbar-nav{
-
+  padding-top: 3rem;
+  li{
+    margin-top: 1.7rem;
+    text-align: center;
+    a{
+      display: inline-block;
+    }
+  }
  }
