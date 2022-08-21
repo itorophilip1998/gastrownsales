@@ -1,4 +1,5 @@
 import React from "react";
+import SideBar from "../SideBar";
 import Btn from "../utils/Btn";
 
 function Header() {
@@ -12,7 +13,24 @@ function Header() {
           <a className="navbar-brand" href="/">
             <img src="/images/logo.png" alt="" />
           </a>
-          <button className="btn border-0 btn-transparent shadow-none d-block d-lg-none" type="button">
+
+          {/* <!-- Modal --> */}
+          <div
+            class="modal fade"
+            id="modelId"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="modelTitleId"
+            aria-hidden="true"
+          >
+            <SideBar/>
+          </div>
+          <button
+            className="btn border-0 btn-transparent shadow-none d-block d-lg-none"
+            type="button"
+            data-toggle="modal"
+            data-target="#modelId"
+          >
             <img src="/images/Vector (7).png" alt="" />
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavId">

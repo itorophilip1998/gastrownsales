@@ -35,7 +35,7 @@ function AboutUs() {
               <Btn text="Contact Us" width={"197.16px"} />
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 d-none d-lg-block">
             <img src="/images/Group 2.png" alt="" />
           </div>
         </div>
