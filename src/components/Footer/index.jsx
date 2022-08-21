@@ -43,10 +43,12 @@ function Footer() {
             </div>
           </div>
         </div>
+
+      <div className="copyright text-left">
+        &copy;2022 <img src="/images/GastrownSales. (1).png" alt="" />
       </div>
-      <div className="copyright">
-        &copy; <img src="/images/GastrownSales. (1).png" alt="" />
       </div>
+      <img src="/images/Scroll Button (1).png" alt="" className="scrollToTop " />
     </div>
   );
 }

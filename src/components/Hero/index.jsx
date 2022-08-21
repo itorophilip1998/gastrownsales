@@ -7,12 +7,12 @@ function Hero() {
     <div id="hero">
       <Header />
 
-      <div className="info col-md-8 px-3 mx-auto pt-5 mt-2">
-        <h3 className="mt-5">
+      <div className="info col-md-8 px-3 mx-auto pt-5 mt-2 text-center p-3 ">
+        <h3 className="mt-5 ">
           Providing Quality Tech Sales <br /> Services in{" "}
           <span className="africa">Africa.</span>
         </h3>
-        <p className="mb-5">
+        <p className="mb-5 pb-5 ">
           Our goal is to provide technical, sales and marketing services to help
                   you
                   <br/>
@@ -21,7 +21,7 @@ function Hero() {
 
         <Btn text="About Us" width="197.16px" />
       </div>
-      <img src="/images/Scroll Button.png" alt="" className="scrollDown" />
+      {/* <img src="/images/Scroll Button.png" alt="" className="scrollDown" /> */}
     </div>
   );
 }

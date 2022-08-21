@@ -6,28 +6,19 @@ function Header() {
     const isActive = window.location.hash === '' ? true : false;
     
   return (
-      <div>
-          
-      <nav className="navbar navbar-expand-sm navbar-dark bg-transparent pt-5">
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent pt-5">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img src="/images/logo.png" alt="" />
           </a>
-          <button
-            className="navbar-toggler d-lg-none"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
+          <button className="btn border-0 btn-transparent shadow-none d-block d-lg-none" type="button">
+            <img src="/images/Vector (7).png" alt="" />
           </button>
           <div className="collapse navbar-collapse" id="collapsibleNavId">
             <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
               <li className="nav-item  ">
-                              <a className={`nav-link ${isActive?'active':''}`} href="/">
+                <a className={`nav-link ${isActive ? "active" : ""}`} href="/">
                   Home
                 </a>
               </li>
@@ -47,7 +38,7 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <form className="form-inline my-2 my-lg-0" >
+            <form className="form-inline my-2 my-lg-0">
               <Btn text="Contact Us" width="197.16px" />
             </form>
           </div>
