@@ -10,9 +10,28 @@ const images = [
 ];
 function TrustedPartners() {
   return (
-    <div className="partners">
+    <div className="partners text-center">
       <h6>Trusted by Partners Globally</h6>
-      {images && images.map((img, key) => <img src={`/images/${img}`} key={key} alt="" className="mx-4" />)}
+      <div className="d-none d-lg-block">
+        {images &&
+          images.map((img, key) => (
+            <img
+              src={`/images/${img}`}
+              key={key}
+              alt=""
+              className="mx-md-4 mx-auto"
+            />
+          ))}
+      </div>
+
+      <div className="row m-0 d-lg-none  ">
+        {images &&
+          images.map((img, key) => (
+            <div className="col-4 py-3">
+              <img src={`/images/${img}`} key={key} alt="" className="" />
+            </div>
+          ))}
+      </div>
     </div>
   );
 }

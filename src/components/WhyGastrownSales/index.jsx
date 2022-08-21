@@ -22,7 +22,7 @@ to delivering real results for customers and partners`,
 ];
 function WhyGastrwonSales() {
   return (
-    <div className="whynah mt-5 pt-5 container">
+    <div className="whynah mt-5 pt-5 container" id="whyus">
       <div className="col-md-10  mx-auto">
         <h2>Why GastrownSales?</h2>
         <p className="secondMsg">
@@ -42,7 +42,9 @@ function WhyGastrwonSales() {
                 <h5 className="cards-title">{item.title}</h5>
                 <p className="cards-body">{item.body}</p>
               </div>
-             { key!==0 && <img src="/images/Arrow 1.png" alt=""  className="lineImg"/>}
+              {key !== 0 && (
+                <img src="/images/Arrow 1.png" alt="" className="lineImg" />
+              )}
             </div>
           ))}
       </div>

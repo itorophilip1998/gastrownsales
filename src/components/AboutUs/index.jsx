@@ -3,7 +3,7 @@ import Btn from "../utils/Btn";
 import "./about.scss"
 function AboutUs() {
   return (
-    <div className="about text-right">
+    <div className="about text-right" id="about">
       <div className="container">
         <div className="row m-0 about-first-img">
           <div className="col-md-8">

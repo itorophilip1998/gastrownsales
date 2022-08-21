@@ -13,6 +13,34 @@
      }
    }
     
+
+
+     .partners {
+        position: relative !important;
+        margin-top: 0px !important;
+        padding: 3rem 0;
+        height: 273px !important;
+        box-shadow:none !important;
+        border-radius: 0;
+                h6 
+{
+          font-family: 'Oceanwide';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px !important;
+            line-height: 18px !important;
+            /* identical to box height */
+          
+            text-align: center;
+          
+            color: #000000;
+        }
+        img{
+          max-width: 80px;
+            // mheight: 18.34px;
+            max-height: 30px;
+        }
+     }
  }
 
  .modal-content,.modal {
@@ -34,6 +62,7 @@
       display: inline-block;
     }
   }
+
 
 
 

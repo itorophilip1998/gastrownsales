@@ -22,7 +22,7 @@ const whatwedo = [
 function WhatWeDo() {
   const [isHover, setIsHover] = useState(1);
   return (
-    <div className="whatwedo ">
+    <div className="whatwedo " id="services">
       <div className="container ">
         <div className="row m-0 first-row text-left">
           <div className="col-md-4">

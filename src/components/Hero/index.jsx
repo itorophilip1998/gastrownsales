@@ -14,14 +14,16 @@ function Hero() {
         </h3>
         <p className="mb-5 pb-5 ">
           Our goal is to provide technical, sales and marketing services to help
-                  you
-                  <br/>
-                  establish your business in Africa.
+          you
+          <br />
+          establish your business in Africa.
         </p>
 
         <Btn text="About Us" width="197.16px" />
       </div>
-      {/* <img src="/images/Scroll Button.png" alt="" className="scrollDown" /> */}
+      <div className="text-center py-3">
+        <img src="/images/Scroll Button.png" alt="" className="scrollDown" />
+      </div>
     </div>
   );
 }
