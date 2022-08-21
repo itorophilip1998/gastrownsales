@@ -21,7 +21,7 @@ function ContactUs() {
             <input type="text" className="form-control" />
           </div>
           <div className="col-md-5 mx-auto mt-4">
-            <label htmlFor="firstname">First Name</label>
+            <label htmlFor="firstname">Last Name</label>
             <input type="text" className="form-control" />
           </div>
           <div className="col-md-5 mx-auto mt-4">
@@ -32,7 +32,7 @@ function ContactUs() {
             <label htmlFor="firstname">First Name</label>
             <input type="text" className="form-control" />
           </div>
-          <div className="col-11 mx-auto mt-4">
+          <div className="col-md-11 col-12 mx-auto mt-4">
             <label htmlFor="firstname">First Name</label>
 
             <textarea

@@ -1,9 +1,9 @@
 import React from "react";
 import Btn from "../utils/Btn";
-import "./about.scss"
+import "./about.scss";
 function AboutUs() {
   return (
-    <div className="about text-right" id="about">
+    <div className="about text-md-right text-center" id="about">
       <div className="container">
         <div className="row m-0 about-first-img">
           <div className="col-md-8">
@@ -13,7 +13,7 @@ function AboutUs() {
             </p>
           </div>
           <div className="col-md-4 rtext">
-            <div className="border-mix2"></div>
+            <div className="border-mix2 d-none d-md-block"></div>
 
             <h3>What we Do</h3>
             <h1>Our Services</h1>
@@ -35,8 +35,8 @@ function AboutUs() {
               <Btn text="Contact Us" width={"197.16px"} />
             </div>
           </div>
-          <div className="col-md-5 d-none d-lg-block">
-            <img src="/images/Group 2.png" alt="" />
+          <div className="col-md-5 d-none d-md-block">
+            <img src="/images/Group 2.png" alt="" className="col-md-12" />
           </div>
         </div>
       </div>
