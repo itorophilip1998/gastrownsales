@@ -36,16 +36,22 @@ function WhyGastrwonSales() {
           whyDb.map((item, key) => (
             <div className="col-lg-4" key={key}>
               <div className="cards-img-box">
-                <img src={`/images/${item.img}`} alt="" />
+                <img src={`/images/${item.img}`} alt="" data-aos="flip-up" />
               </div>
               <div className="cards-box">
-                <h5 className="cards-title">{item.title}</h5>
-                <p className="cards-body">{item.body}</p>
+                <h5 className="cards-title" data-aos="fade-up">
+                  {item.title}
+                </h5>
+                <p className="cards-body" data-aos="fade-down">
+                  {item.body}
+                </p>
               </div>
               {key !== 0 && (
                 <img
                   src="/images/Arrow 1.png"
                   alt=""
+                  data-aos="fade-right"
+                  data-aos-delay="100"
                   className="lineImg d-none d-lg-block"
                 />
               )}
