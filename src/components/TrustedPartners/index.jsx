@@ -11,7 +11,9 @@ const images = [
 function TrustedPartners() {
   return (
     <div className="partners text-center">
-      <h6>Trusted by Partners Globally</h6>
+      <h6 data-aos="fade-down" >
+        Trusted by Partners Globally
+      </h6>
       <div className="d-none d-lg-block">
         {images &&
           images.map((img, key) => (
@@ -19,6 +21,7 @@ function TrustedPartners() {
               src={`/images/${img}`}
               key={key}
               alt=""
+              data-aos="flip-up" 
               className="mx-md-4 mx-auto"
             />
           ))}
@@ -28,7 +31,7 @@ function TrustedPartners() {
         {images &&
           images.map((img, key) => (
             <div className="col-4 py-3">
-              <img src={`/images/${img}`} key={key} alt="" className="" />
+              <img src={`/images/${img}`}  data-aos="flip-up"  key={key} alt="" className="" />
             </div>
           ))}
       </div>

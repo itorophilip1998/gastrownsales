@@ -24,8 +24,8 @@ function WhyGastrwonSales() {
   return (
     <div className="whynah mt-5 pt-md-5 container" id="whyus">
       <div className="col-md-10  mx-auto">
-        <h2>Why GastrownSales?</h2>
-        <p className="secondMsg">
+        <h2 data-aos="fade-left">Why GastrownSales?</h2>
+        <p className="secondMsg" data-aos="fade-right">
           We have been doing business in Africa and have established strong
           relationships with suppliers and clients. We help companies navigate
           market constraints to become successful in Africa.
@@ -43,7 +43,11 @@ function WhyGastrwonSales() {
                 <p className="cards-body">{item.body}</p>
               </div>
               {key !== 0 && (
-                <img src="/images/Arrow 1.png" alt="" className="lineImg d-none d-lg-block" />
+                <img
+                  src="/images/Arrow 1.png"
+                  alt=""
+                  className="lineImg d-none d-lg-block"
+                />
               )}
             </div>
           ))}
