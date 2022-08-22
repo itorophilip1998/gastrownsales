@@ -6,10 +6,10 @@ function ContactUs() {
     <div className="contact-us">
       <div className="container">
         <div className="contact-info">
-          <h1>
+          <h1 data-aos="fade-down">
             Let’s Hear From You<span className="text-color">.</span>
           </h1>
-          <p className="col-md-10 mx-auto">
+          <p className="col-md-10 mx-auto" data-aos="fade-up">
             Schedule a free consultation so we can know the details of how best
             we can serve you and your business.
           </p>
@@ -41,9 +41,11 @@ function ContactUs() {
               cols="30"
               rows="10"
               className="form-control"
+              required
             ></textarea>
           </div>
-          <div className="col-12 text-center mt-5 pt-4">
+          <div className="col-12 text-center mt-5 pt-4"
+          data-aos="flip-right">
             <Btn text="Contact Us" />
           </div>
         </form>

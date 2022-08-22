@@ -26,12 +26,12 @@ function WhatWeDo() {
       <div className="container ">
         <div className="row m-0 first-row text-md-left text-center">
           <div className="col-md-4">
-            <h3>What we Do</h3>
-            <h1>Our Services</h1>
+            <h3 data-aos="fade-right">What we Do</h3>
+            <h1 data-aos="fade-right">Our Services</h1>
           </div>
           <div className="col-md-8 ">
             <div className="border-mix d-none d-md-block"></div>
-            <p className="pl-md-5">
+            <p className="pl-md-5" data-aos="fade-left">
               As a culture, we are committed to providing the best sales
               services for your business and product: Building your brand
               awareness and improving your revenue
@@ -46,6 +46,8 @@ function WhatWeDo() {
                 className="whatwedo-cards "
                 key={key}
                 onMouseOver={(e) => setIsHover(key)}
+                data-aos="flip-up"
+                data-aos-delay={100 + (key + 1) * 100}
               >
                 <div className="wcards-head">
                   <img src={`/images/${item.img}`} alt="" />
@@ -54,12 +56,16 @@ function WhatWeDo() {
                 <p className="wcards-body">{item.body}</p>
                 <div className="wbtn-box">
                   {isHover !== key && (
-                    <a href="/#" className=" shadow wcard-btn">
+                    <a
+                      href="/#"
+                      className=" shadow wcard-btn"
+                      data-aos="fade-up"
+                    >
                       Learn More <img src="/images/Vector 2 (1).png" alt="" />
                     </a>
                   )}
                   {isHover === key && (
-                    <div className="my-5">
+                    <div className="my-5" data-aos="fade-up">
                       <Btn text="Learn More " isImg={true} width="197.16px" />
                     </div>
                   )}
